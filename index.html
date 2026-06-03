@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beginner Landing Page Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#home">Landing Page</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#demo">Demo</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <main id="home">
+      <section class="hero-section">
+        <div class="hero-content">
+          <p class="eyebrow">Beginner Web Development Project</p>
+          <h1>Build a clean landing page with HTML, CSS, and creativity.</h1>
+          <p class="hero-text">
+            Practice columns, sections, alignment, spacing, color choices, boxes,
+            headers, and footers while making a polished page that feels ready to share.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="#demo">View Demo</a>
+            <a class="secondary-button" href="#features">Explore Features</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Landing page project summary">
+          <h2>Landing Page</h2>
+          <p>
+            A landing page is one of the best web development projects for beginners.
+            It helps you understand structure, styling, spacing, and responsive design.
+          </p>
+          <a href="#demo">For Demo Click</a>
+        </div>
+      </section>
+
+      <section class="features-section" id="features">
+        <div class="section-heading">
+          <p class="eyebrow">What You Learn</p>
+          <h2>Core frontend skills in one practical project</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Page Structure</h3>
+            <p>Use semantic HTML to divide content into headers, sections, cards, and footers.</p>
+          </article>
+          <article class="feature-card">
+            <h3>CSS Layout</h3>
+            <p>Arrange items using flexbox and grid while keeping every element aligned.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Visual Design</h3>
+            <p>Apply colors, spacing, typography, shadows, and borders to make the page impressive.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="demo-section" id="demo">
+        <div>
+          <p class="eyebrow">Demo</p>
+          <h2>Responsive, readable, and GitHub-ready</h2>
+          <p>
+            This starter project keeps the code simple enough for beginners while still
+            looking like a complete modern landing page.
+          </p>
+        </div>
+        <a class="primary-button" href="#contact">Start Your Project</a>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <p>Made with HTML, CSS, and JavaScript.</p>
+      <a href="mailto:hello@example.com">hello@example.com</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
